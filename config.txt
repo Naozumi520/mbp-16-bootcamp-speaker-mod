@@ -3,6 +3,7 @@ Channel: L R
 Preamp: -5 dB
 Filter: ON PK Fc 70 Hz Gain 24 dB Q 1.5096
 Filter: ON PK Fc 200 Hz Gain 8 dB Q 2.1225
+Filter: ON PK Fc 42 Hz Gain -15 dB Q 1.41
 Filter: ON PK Fc 1900 Hz Gain -4 dB Q 0.69
 Filter: ON PK Fc 6714.75 Hz Gain -5.9 dB Q 0.6065
 Filter: ON HS Fc 5649.76 Hz Gain -4.3 dB
