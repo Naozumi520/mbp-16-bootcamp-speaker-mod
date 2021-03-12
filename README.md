@@ -18,7 +18,3 @@ Config for speaker optimization for MBP16 2019 in windows 10
 
 ## Known issues
 &emsp;&emsp;Pops sounds appear time to time ~I doubt this is a hardware problem which Apple say is software problem in macOS Catalina or based from the firmware~
-
-## Q&A
-&emsp;&emsp;Q: I installed EqualizerAPO and the config file, but the sound were not loud enough!<br/>
-&emsp;&emsp;A: This is cuz bootcamp is not like macOS, the bass could not adjustment it self and big volume might damage the speaker. The default settings is -5.00db gain of the preamplification, you can type a safe value to increase or decrease the volume.
