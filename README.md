@@ -15,6 +15,10 @@ Config for speaker optimization for MBP16 2019 in windows 10
   5.Click ok and restart.<br/>
   6.In the same folder, copy config.txt to **C:\Program Files\EqualizerAPO\config** and replace.<br/>
   7.Open Dolby Atmos, turn it **off**<br/>
+  8.Open Service tool, find Dolby DAX API Service and disable it.
+
+Reddit post:
+https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootcamp_of_macbook_pro/
 
 ## Known issues
 &emsp;&emsp;Pops sounds appear time to time ~I doubt this is a hardware problem which Apple say is software problem in macOS Catalina or based from the firmware~
