@@ -2,19 +2,15 @@ Device: Speakers Apple Audio Device
 Preamp: 15 dB
 Channel: ALL
 Filter: ON PK Fc 5 Hz Gain -10 dB Q 0.1001
-Filter: ON PK Fc 42 Hz Gain -50 dB Q 1.41
-Filter: ON PK Fc 83 Hz Gain 10.5 dB Q 1.11
-Filter: ON PK Fc 120 Hz Gain 2.3 dB Q 1.5096
-Filter: ON PK Fc 170 Hz Gain 2 dB Q 1.5096
 Filter: ON PK Fc 200 Hz Gain -5 dB Q 2.1225
 Filter: ON PK Fc 333 Hz Gain -10.5 dB Q 1.3959
 Filter: ON PK Fc 577 Hz Gain -13 dB Q 1.64
 Filter: ON PK Fc 1000 Hz Gain -5 dB Q 1.41
 Filter: ON PK Fc 1900 Hz Gain -7 dB Q 0.69
 Filter: ON PK Fc 2000 Hz Gain -6 dB Q 1.41
-Filter: ON PK Fc 4000 Hz Gain -8 dB Q 1.41
-Filter: ON HS Fc 5649.76 Hz Gain -14 dB
-Filter: ON PK Fc 6714.75 Hz Gain -15.9 dB Q 0.6065
-Filter: ON PK Fc 8000 Hz Gain -7 dB Q 1.41
-Filter: ON PK Fc 16000 Hz Gain -15 dB Q 1.41
-Filter: ON PK Fc 20000 Hz Gain -15 dB Q 2.99
+Filter: ON PK Fc 4000 Hz Gain -7 dB Q 1.41
+Filter: ON HS Fc 5649.76 Hz Gain -12 dB
+Filter: ON PK Fc 6714.75 Hz Gain -13.9 dB Q 0.6065
+Filter: ON PK Fc 8000 Hz Gain -5 dB Q 1.41
+Filter: ON PK Fc 16000 Hz Gain -13 dB Q 1.41
+Filter: ON PK Fc 20000 Hz Gain -13 dB Q 2.99
