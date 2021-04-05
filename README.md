@@ -1,4 +1,4 @@
-# Macbook pro 16"1 2019 speaker bootcamp optimization
+# Mbp16'1-bootcamp-Speakers-mod
  
 Config for speaker optimization for MBP16 2019 in windows 10
  ###### Warning: Do it at your own risk, if you point at me, I will laugh at you.
