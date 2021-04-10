@@ -18,7 +18,6 @@ https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootca
 ## Known issues
 &emsp;&emsp;Pops sounds appear time to time, unfixable (macbook hardware bug)
 
-
 ### Credits: Brad331
 https://github.com/Brad331/DynamiQ for DynamiQ
 
