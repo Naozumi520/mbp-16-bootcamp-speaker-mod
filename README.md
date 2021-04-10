@@ -10,10 +10,15 @@ Config for Speakers optimization for MBP16 2019 in windows 10
   3.Tick "Troubleshooting options (only use in case of problems)"<br/>
   4.Choose option **"Install as SFX/MFX"** or **"Install as SFX/EFX (experimental)"**. Other options will not working.<br/>
   5.Click ok and restart.<br/>
-  6.In the same folder, copy config.txt to **C:\Program Files\EqualizerAPO\config** and replace.<br/>
+  6.In the same folder, copy **config.txt** & **"DynamiQ-master"** to **C:\Program Files\EqualizerAPO\config** and replace.<br/>
 
 Reddit post:
 https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootcamp_of_macbook_pro/
 
 ## Known issues
 &emsp;&emsp;Pops sounds appear time to time ~I doubt this is a hardware problem which Apple say is software problem in macOS Catalina or based from the firmware~
+
+
+### Credits: Brad331
+https://github.com/Brad331/DynamiQ for DynamiQ
+
