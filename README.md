@@ -16,7 +16,7 @@ Reddit post:
 https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootcamp_of_macbook_pro/
 
 ## Known issues
-&emsp;&emsp;Pops sounds appear time to time ~I doubt this is a hardware problem which Apple say is software problem in macOS Catalina or based from the firmware~
+&emsp;&emsp;Pops sounds appear time to time, unfixable (macbook hardware bug)
 
 
 ### Credits: Brad331
