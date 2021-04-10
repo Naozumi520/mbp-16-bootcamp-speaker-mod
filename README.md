@@ -22,3 +22,4 @@ https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootca
 ### Credits: Brad331
 https://github.com/Brad331/DynamiQ for DynamiQ
 
+**10/4/2021 Finished adjustment.**
