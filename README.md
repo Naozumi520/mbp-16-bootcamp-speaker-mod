@@ -15,6 +15,9 @@ Config for Speakers optimization for MBP16 2019 in windows 10
 Reddit post:
 https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootcamp_of_macbook_pro/
 
+## Preview:
+https://www.naozumi.me/bcmod_preview/
+
 ## Known issues
 &emsp;&emsp;Pops sounds appear time to time, unfixable (macbook hardware bug)
 
