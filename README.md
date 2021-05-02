@@ -20,7 +20,7 @@ https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootca
 https://www.naozumi.me/bcmod_preview/
 
 ## Known issues
-~~Pops sounds appear time to time~~ ( fixed in v1.0
+~~Pops sounds appear time to time~~ ( Has ameliorated
 
 ### Credits: Brad331
 https://github.com/Brad331/DynamiQ for DynamiQ
