@@ -10,14 +10,26 @@ Config for Speakers optimization for MBP16 2019 in windows 10
   3.Tick "Troubleshooting options (only use in case of problems)"<br/>
   4.Choose option **"Install as SFX/MFX"** or **"Install as SFX/EFX (experimental)"**. Other options will not working.<br/>
   5.Tick "Allow silent buffer modification"<br/>
-  6.Click ok and restart.<br/>
+  6.Click ok and **no not restart yet**.<br/>
   7.In the same folder, copy **config.txt** & **"DynamiQ-master"** to **C:\Program Files\EqualizerAPO\config** and replace.<br/>
+  8.Copy **PCI_DEV_1803_SUBSYS_1887106B_PCI_SUBSYS_72708086.xml** to **C:\Windows\System32\dolbyaposvc** and instead the original.
+  9.Reboot.
+  10.Open Dolby Atmos, turn profile to Music, Warm.
+
+## Files
+```
+- DynamiQ-master | The plugin use for reappear similar bass kick as MacOS.
+- config.txt | The EqualizerAPO configuration file.
+- EqualizerAPO64-1.2.1.exe | EqualizerAPO installer.
+- PCI_DEV_1803_SUBSYS_1887106B_PCI_SUBSYS_72708086.xml | Dolby Atmos speaker configuration, port from iMac1,1.
+- Original_drivers&files | Included all original drivers and configuration, version 6.1.7700.3.
+
 
 Reddit post:
 https://www.reddit.com/r/bootcamp/comments/ltifl0/fix_sound_quality_under_bootcamp_of_macbook_pro/
 
 ## Preview:
-https://www.naozumi.me/bcmod_preview/
+https://www.naozumi.me/bcmod_preview/ (outdated)
 
 ## Known issues
 ~~Pops sounds appear time to time~~ ( Has ameliorated
