@@ -23,6 +23,7 @@ Config for Speakers optimization for MBP16 2019 in windows 10
 - EqualizerAPO64-1.2.1.exe | EqualizerAPO installer.
 - PCI_DEV_1803_SUBSYS_1887106B_PCI_SUBSYS_72708086.xml | Dolby Atmos speaker configuration, port from iMac1,1.
 - Original_drivers&files | Included all original drivers and configuration, version 6.1.7700.3.
+```
 
 
 Reddit post:
