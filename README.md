@@ -1,5 +1,11 @@
 # Mbp16,1-bootcamp-Speakers-mod
- 
+
+## 28/7/2022 New EQ present is now in test, will release it after a week.
+- More similar as macOS
+- More louder
+- More details
+- No more popping sound and fixed the problem that volume is not balanced.
+
 Config for Speakers optimization for MBP16 2019 in windows 10
  ###### Warning: Method may invalidate the warranty and caused speakers broken.
  ###### Disclaimer: I'll not be responsible for any damage to the device caused by using the method.
