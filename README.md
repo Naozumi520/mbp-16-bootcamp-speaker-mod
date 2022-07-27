@@ -6,6 +6,8 @@
 - More details
 - No more popping sound and fixed the problem that volume is not balanced.
 
+<details>
+  <summary>V1 readme</summary>
 Config for Speakers optimization for MBP16 2019 in windows 10
  ###### Warning: Method may invalidate the warranty and caused speakers broken.
  ###### Disclaimer: I'll not be responsible for any damage to the device caused by using the method.
@@ -45,3 +47,4 @@ https://www.naozumi.me/bcmod_preview/ (outdated)
 https://github.com/Brad331/DynamiQ for DynamiQ
 
 **10/4/2021 Finished adjustment.**
+</details>
