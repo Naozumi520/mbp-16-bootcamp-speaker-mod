@@ -1,6 +1,6 @@
 # Mbp16,1-bootcamp-Speakers-mod
 
-## 28/7/2022 New EQ present is now in test, will release it after a week.
+## 28/7/2022 New EQ present is now in test, will release after it's ready.
 - More similar as macOS
 - More louder
 - More details
