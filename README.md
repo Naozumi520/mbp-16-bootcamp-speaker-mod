@@ -9,3 +9,7 @@ Current configuration date: 2023-02-23
 
 ## Previw (Version: 2023-02-27)
 https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov
+
+## TODO
+- [ ] Balance overall volume 
+- [ ] Reduce popping (this is not yet possible, as I never figured out why it was happening, and even macOS couldn't prevent it from happening at all.)
