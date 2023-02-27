@@ -5,5 +5,7 @@ This configuration is based on tuning for pure sound output without Dolby Atmos.
 
 Installations method is not provided in this moment. Switch back to branch `main` for the old configuration.
 
-## Previw (2023-02-27)
+Current configuration date: 2023-02-23
+
+## Previw (Version: 2023-02-27)
 https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov
