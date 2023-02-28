@@ -1,2 +1,0 @@
-Device: Speakers Apple Audio Device
-Convolution: impulse_response_20230223_1950.wav
