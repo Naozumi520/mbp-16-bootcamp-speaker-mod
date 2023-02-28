@@ -28,7 +28,7 @@ bootcamp-speaker-mod
 
 ## Installation
 ### - Install Equalizer Apo
-First, install Equalizer APO on your bootcamp. You can find the setup in the release package.
+First, install Equalizer APO on your bootcamp. You can find the setup in the [release package](https://github.com/Naozumi520/mbp-16-bootcamp-speaker-mod/releases/tag/Release_2.0).
 
 Next, choose and select the playback device "Speaker" only.
 <h1 align="center">
