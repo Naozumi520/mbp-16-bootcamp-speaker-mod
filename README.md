@@ -10,6 +10,8 @@ Although this configuration has improved the sound experience, it is still not a
 ## Preview
 https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov
 
+Song: Hopes and Dreams (from UNDERTALE)
+
 ## Included files
 ```
 bootcamp-speaker-mod
