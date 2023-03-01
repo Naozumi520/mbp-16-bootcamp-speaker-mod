@@ -1,5 +1,6 @@
 # MBP16-BOOTCAMP-SPEAKERMOD 2.0
   
+**!!!! Do not download from source, but from the release instead !!!!**  
 This is an Equalizer APO configuration designed to fix the lack of tuning of the MacBook Pro 16 inch (2019) speaker when using Bootcamp.
 
 ## Notice  
