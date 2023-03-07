@@ -54,6 +54,7 @@ Restart Bootcamp. After the reboot, you should be able to hear the difference im
 Open Equalizer APO's Configurator, select the Speakers and hit "Copy Device command to clipboard", then paste to any where you can see the text.
 
 Open Registry Editor, Go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render and find the one matches your device that was copied.
+![image](https://user-images.githubusercontent.com/52615455/223436889-523f2f28-727c-4418-8954-6075ad241cd7.png)
 
 Enter FxPropeties of that folder, add the following keys (New String):
 
@@ -66,6 +67,7 @@ Enter FxPropeties of that folder, add the following keys (New String):
 Reboot Bootcamp, open sound setting, open the Properties of the speakers, you will see the new Enhancements tab appeared.
 
 Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.
+![image](https://user-images.githubusercontent.com/52615455/223436950-112378d5-6bcf-4e5d-9cf6-649da66a7ff8.png)
 
 ## Legal Disclaimer
 This configuration, created by Naozumi, includes two freeware plugins, KSHMREssentialsKick.dll and Proximity-x64.dll, that are not owned or developed by the creator of this configuration. If the owners of these plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
