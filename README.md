@@ -49,7 +49,23 @@ Click OK and **do not restart**.
 
 In the release package, copy both the `config` and `VSTPlugins` folders to `C:\Program Files\EqualizerAPO` and replace the existing one.
 
-Finally, restart Bootcamp. After the reboot, you should be able to hear the difference immediately.
+Restart Bootcamp. After the reboot, you should be able to hear the difference immediately. But we still have few steps to enable the Loudness Equalization.
+
+Open Equalizer APO's Configurator, select the Speakers and hit "Copy Device command to clipboard", then paste to any where you can see the text.
+
+Open Registry Editor, Go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render and find the one matches your device that was copied.
+
+Enter FxPropeties of that folder, add the following keys (New String):
+
+| Valuename | Value |
+| --------- | ----- |
+| {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},1 | {62dc1a93-ae24-464c-a43e-452f824c4250} |
+| {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},2 | {637c490d-eee3-4c0a-973f-371958802da2} |
+| {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},3 | {5860E1C5-F95C-4a7a-8EC8-8AEF24F379A1} |
+
+Reboot Bootcamp, open sound setting, open the Properties of the speakers, you will see the new Enhancements tab appeared.
+
+Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.
 
 ## Legal Disclaimer
 This configuration, created by Naozumi, includes two freeware plugins, KSHMREssentialsKick.dll and Proximity-x64.dll, that are not owned or developed by the creator of this configuration. If the owners of these plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
