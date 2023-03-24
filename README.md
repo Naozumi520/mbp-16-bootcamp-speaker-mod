@@ -70,7 +70,7 @@ Finally, open the Enhancements tab, turn on Loudness Equalization. You can also 
 ![image](https://user-images.githubusercontent.com/52615455/223436950-112378d5-6bcf-4e5d-9cf6-649da66a7ff8.png)
 
 ## Legal Disclaimer
-This configuration, created by Naozumi, includes two freeware plugins, KSHMREssentialsKick.dll and Proximity-x64.dll, that are not owned or developed by the creator of this configuration. If the owners of these plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
+This configuration, created by Naozumi, includes three freeware/plugins, KSHMREssentialsKick.dll, Proximity-x64.dll and EqualizerAPO64-1.3.exe, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
 
 ## Disclaimer
 The use of this configuration is at your own risk. The creator (Naozumi) will not be responsible for any damage or loss caused to your device or data, including but not limited to loss of profits or data, arising from the use of this configuration. You agree to use this configuration at your own discretion and are solely responsible for any consequences that may arise from its use. By using this configuration, you acknowledge and agree to these terms.
