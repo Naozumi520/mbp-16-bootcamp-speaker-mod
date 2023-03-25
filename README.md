@@ -16,14 +16,37 @@ Song: Hopes and Dreams (from UNDERTALE)
 ## Included files
 ```
 bootcamp-speaker-mod
+│   APOpreamp.exe
+│   EqualizerAPO64-1.3.exe
+│   Please download from release
 │   README.md
 │
 ├───config
-│       config.txt
-│       impulse_20230227_19_59.wav
+│   │   bass_20230307_19_40-48k.wav
+│   │   clarity_20230325_18_49.wav
+│   │   config.txt
+│   │   impulse_20230304_17_16.wav
+│   │
+│   └───DynamiQ-master
+│           .gitignore
+│           BassComp1.txt
+│           BassComp2.txt
+│           BassComp3.txt
+│           BassComp4.txt
+│           BassComp5.txt
+│           BassComp6.txt
+│           DynamiQ.txt
+│           Extra Vocal Clarity.txt
+│           Gain.txt
+│           Gain.txt.tmp.txt
+│           Include DynamiQ.png
+│           LICENSE
+│           reacomp-standalone.dll
+│           README.md
 │
 └───VSTPlugins
         KSHMREssentialsKick.dll
+        LOVEND_x64.dll
         Proximity-x64.dll
 ```
 
