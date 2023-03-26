@@ -83,8 +83,8 @@ Open Registry Editor, Go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curren
 
 Enter FxPropeties of that folder, add the following keys (New String):
 
-| Valuename | Value |
-| --------- | ----- |
+| Valuename                                | Value                                  |
+| ---------------------------------------- | -------------------------------------- |
 | {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},1 | {62dc1a93-ae24-464c-a43e-452f824c4250} |
 | {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},2 | {637c490d-eee3-4c0a-973f-371958802da2} |
 | {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},3 | {5860E1C5-F95C-4a7a-8EC8-8AEF24F379A1} |
@@ -96,6 +96,31 @@ Finally, open the Enhancements tab, turn on Loudness Equalization. You can also 
 
 ## Volume issue
 You may noticed, the volume is very low after applied thr EQ. Don't worry! It's the normal behavour! This EQ used [DynamiQ](https://github.com/Brad331/DynamiQ), the Intelligent Frequency-Aware Volume Boost. Once your Windows volume is maxed out, keep pressing the volume up button on your keyboard to boost the gain. You should see a white Gain box pop up near the screen's top left corner and hear an increase in volume. With this amazing config, the speaker now will output as much bass and volume as possible (Under 100% = good bass; More than 100% = lower bass and bring higher volume!) For more, please read the [DynamiQ document](https://github.com/Brad331/DynamiQ#dynamiq-intelligent-frequency-aware-volume-boost)
+
+## Contributing Guidelines
+Contributions are welcome for `mbp-16-bootcamp-speaker-mod`! And there are some guildlines about that.  
+
+### Current limitations
+`mbp-16-bootcamp-speaker-mod` has some difficulties. These are the problems we hope to solve:
+- Bass is too deep and not easy to hear. macOS uses an interesting trick called psychoacoustics (same as the Waves MaxxBass and Waves Renaissance Bass plugins). And it's hard to find one for bass, especially if it has to be free.
+
+- As mentioned, we didn't use any psychoacoustic plugins focusing on bass, and the deeper bass was harder to output from the speakers because those speakers were so tiny! I'm currently using [(DynamiQ)](https://github.com/Brad331/DynamiQ) (modified) to output as much bass as possible.
+
+### Config parameters/files
+There are some parameters/files refer to:
+| Type             | Name                                              | Purpose                                                                                    |     |     |
+| ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | --- |
+| Impulse-Response | `impulse_20230304_17_16.wav`                      | The main EQ for the sounds                                                                 |     |     |
+| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The HP version of `impulse_20230304_17_16.wav`, with bass adjustments                      |     |     |
+| Impulse-Response | `clarity_20230325_18_49.wav`                      | The EQ to improve clarity.                                                                 |     |     |
+| Config           | `DynamiQ`                                         | A opensource project on laptop speaker, allowing to output as much bass as possible        |     |     |
+| VST2             | `KSHMREssentialsKick.dll`                         | A free vst2 plugin to adjust bass and make the kick harder and clear                       |     |     |
+| VST2             | `LOVEND_x64.dll`                                  | A free vst2 plugin to add harmonics to the bass                                            |     |     |
+| VST2             | `Proximity-x64.dll`                               | A free vst2 plugin to adjust sound depth                                                   |     |     |
+| Parameters       | Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R     | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |     |     |
+| Parameters       | Channel: L_BASS R_BASS                            | The following parameters will only apply on L_BASS and R_BASS channels                     |     |     |
+| Parameters       | Channel: L_TREBLE R_TREBLE                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |     |     |
+| Parameters       | Copy: L=L_BASS+1.2*L_TREBLE R=R_BASS+1.2*R_TREBLE | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |     |     |
 
 ## Legal Disclaimer
 This configuration, created by Naozumi, includes five freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
