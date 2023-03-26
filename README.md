@@ -111,7 +111,7 @@ There are some parameters/files refer to:
 | Type             | Name                                              | Purpose                                                                                    |     |     |
 | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | --- |
 | Impulse-Response | `impulse_20230304_17_16.wav`                      | The main EQ for the sounds                                                                 |     |     |
-| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The HP version of `impulse_20230304_17_16.wav`, with bass adjustments                      |     |     |
+| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The LP version of `impulse_20230304_17_16.wav`, with bass adjustments                      |     |     |
 | Impulse-Response | `clarity_20230325_18_49.wav`                      | The EQ to improve clarity.                                                                 |     |     |
 | Config           | `DynamiQ`                                         | A opensource project on laptop speaker, allowing to output as much bass as possible        |     |     |
 | VST2             | `KSHMREssentialsKick.dll`                         | A free vst2 plugin to adjust bass and make the kick harder and clear                       |     |     |
