@@ -9,9 +9,11 @@ This configuration is based on tuning for pure sound output without Dolby Atmos.
 Although this configuration has improved the sound experience, it is still not accurate enough for reference purposes. In other words, you should not use the speaker with this configuration as a reference for audio production.
 
 ## Preview
-https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov
 
-Song: Hopes and Dreams (from UNDERTALE)
+| Song: Hopes and Dreams (from UNDERTALE) | Grand Escape - A Weathering With You OST |
+|---------|---------|
+| <video src="https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227760758-76257887-dd00-43d7-852e-3f833570eeca.mov" width="320" height="180" controls></video> |
+
 
 ## Included files
 ```
