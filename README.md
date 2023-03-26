@@ -91,7 +91,8 @@ Enter FxPropeties of that folder, add the following keys (New String):
 
 Reboot Bootcamp, open sound setting, open the Properties of the speakers, you will see the new Enhancements tab appeared.
 
-Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.
+Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.  
+                                                                                                 
 ![image](https://user-images.githubusercontent.com/52615455/223436950-112378d5-6bcf-4e5d-9cf6-649da66a7ff8.png)
 
 ## Volume issue
