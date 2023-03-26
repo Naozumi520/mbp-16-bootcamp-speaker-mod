@@ -9,9 +9,11 @@ This configuration is based on tuning for pure sound output without Dolby Atmos.
 Although this configuration has improved the sound experience, it is still not accurate enough for reference purposes. In other words, you should not use the speaker with this configuration as a reference for audio production.
 
 ## Preview
-https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov
 
-Song: Hopes and Dreams (from UNDERTALE)
+| Hopes and Dreams (from UNDERTALE) | Grand Escape - A Weathering With You OST |
+|---------|---------|
+| <video src="https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227760758-76257887-dd00-43d7-852e-3f833570eeca.mov" width="320" height="180" controls></video> |
+
 
 ## Included files
 ```
@@ -91,7 +93,8 @@ Enter FxPropeties of that folder, add the following keys (New String):
 
 Reboot Bootcamp, open sound setting, open the Properties of the speakers, you will see the new Enhancements tab appeared.
 
-Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.
+Finally, open the Enhancements tab, turn on Loudness Equalization. You can also turn on Room Correction optionally. Other options are not recommended.  
+                                                                                                 
 ![image](https://user-images.githubusercontent.com/52615455/223436950-112378d5-6bcf-4e5d-9cf6-649da66a7ff8.png)
 
 ## Volume issue
@@ -111,7 +114,7 @@ There are some parameters/files refer to:
 | Type             | Name                                              | Purpose                                                                                    |     |     |
 | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | --- |
 | Impulse-Response | `impulse_20230304_17_16.wav`                      | The main EQ for the sounds                                                                 |     |     |
-| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The HP version of `impulse_20230304_17_16.wav`, with bass adjustments                      |     |     |
+| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The LP version of `impulse_20230304_17_16.wav` (270Hz), with bass adjustments                      |     |     |
 | Impulse-Response | `clarity_20230325_18_49.wav`                      | The EQ to improve clarity.                                                                 |     |     |
 | Config           | `DynamiQ`                                         | A opensource project on laptop speaker, allowing to output as much bass as possible        |     |     |
 | VST2             | `KSHMREssentialsKick.dll`                         | A free vst2 plugin to adjust bass and make the kick harder and clear                       |     |     |
