@@ -10,10 +10,9 @@ Although this configuration has improved the sound experience, it is still not a
 
 ## Preview
 
-| Hopes and Dreams (from UNDERTALE) | Grand Escape - A Weathering With You OST |
-|---------|---------|
-| <video src="https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227760758-76257887-dd00-43d7-852e-3f833570eeca.mov" width="320" height="180" controls></video> |
-
+| Hopes and Dreams (from UNDERTALE) | Grand Escape - A Weathering With You OST | July - Autumn |
+|---------|---------|---------|
+| <video src="https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227760758-76257887-dd00-43d7-852e-3f833570eeca.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227782145-bf018aa8-bfbb-43d2-8e38-aafa6435737d.mov" width="320" height="180" controls></video> |
 
 ## Included files
 ```
