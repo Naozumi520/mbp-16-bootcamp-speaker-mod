@@ -126,7 +126,7 @@ There are some parameters/files refer to:
 | Parameters       | Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R     | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |
 | Parameters       | Channel: L_BASS R_BASS                            | The following parameters will only apply on L_BASS and R_BASS channels                     |
 | Parameters       | Channel: L_TREBLE R_TREBLE                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |
-| Parameters       | Copy: L=L_BASS+1.2*L_TREBLE R=R_BASS+1.2*R_TREBLE | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
+| Parameters       | Copy: L=L_BASS+1.2\*L_TREBLE R=R_BASS+1.2\*R_TREBLE | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
 ## Legal Disclaimer
 This configuration, created by Naozumi, includes five freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
 
