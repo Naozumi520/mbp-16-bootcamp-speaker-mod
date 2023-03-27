@@ -113,20 +113,20 @@ Contributions are welcome for `mbp-16-bootcamp-speaker-mod`! And there are some 
 
 ### Config parameters/files
 There are some parameters/files refer to:
-| Type             | Name                                              | Purpose                                                                                    |
-| ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Impulse-Response | `impulse_20230304_17_16.wav`                      | The main EQ for the sounds                                                                 |
-| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The LP version of `impulse_20230304_17_16.wav` (270Hz), with bass adjustments              |
-| Impulse-Response | `clarity_20230325_18_49.wav`                      | The EQ to improve clarity.                                                                 |
-| Config           | `DynamiQ`                                         | A opensource project on laptop speaker, allowing to output as much bass as possible        |
-| VST2             | `KSHMREssentialsKick.dll`                         | A free vst2 plugin to adjust bass and make the kick harder and clear                       |
-| VST2             | `LOVEND_x64.dll`                                  | A free vst2 plugin to add harmonics to the bass                                            |
-| VST2             | `Proximity-x64.dll`                               | A free vst2 plugin to adjust sound depth                                                   |
-| VST2             | `WSTD_EQ-vst.dll`                                 | A free vst2 plugin to make some little adjustments like High, Mid. Mid Freq and Low        |
-| Parameters       | Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R     | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |
-| Parameters       | Channel: L_BASS R_BASS                            | The following parameters will only apply on L_BASS and R_BASS channels                     |
-| Parameters       | Channel: L_TREBLE R_TREBLE                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |
-| Parameters       | Copy: L=L_BASS+1.2\*L_TREBLE R=R_BASS+1.2\*R_TREBLE | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
+| Type             | Name                                                  | Purpose                                                                                    |
+| ---------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Impulse-Response | `impulse_20230304_17_16.wav`                          | The main EQ for the sounds                                                                 |
+| Impulse-Response | `bass_20230307_19_40-48k.wav`                         | The LP version of `impulse_20230304_17_16.wav` (270Hz), with bass adjustments              |
+| Impulse-Response | `clarity_20230325_18_49.wav`                          | The EQ to improve clarity.                                                                 |
+| Config           | `DynamiQ`                                             | A opensource project on laptop speaker, allowing to output as much bass as possible        |
+| VST2             | `KSHMREssentialsKick.dll`                             | A free vst2 plugin to adjust bass and make the kick harder and clear                       |
+| VST2             | `LOVEND_x64.dll`                                      | A free vst2 plugin to add harmonics to the bass                                            |
+| VST2             | `Proximity-x64.dll`                                   | A free vst2 plugin to adjust sound depth                                                   |
+| VST2             | `WSTD_EQ-vst.dll`                                     | A free vst2 plugin to make some little adjustments like High, Mid. Mid Freq and Low        |
+| Parameters       | `Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R`       | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |
+| Parameters       | `Channel: L_BASS R_BASS`                              | The following parameters will only apply on L_BASS and R_BASS channels                     |
+| Parameters       | `Channel: L_TREBLE R_TREBLE`                          | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |
+| Parameters       | `Copy: L=L_BASS+1.2\*L_TREBLE R=R_BASS+1.2\*R_TREBLE` | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
 ## Legal Disclaimer
 This configuration, created by Naozumi, includes five freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
 
