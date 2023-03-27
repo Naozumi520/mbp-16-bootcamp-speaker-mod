@@ -10,10 +10,10 @@ Although this configuration has improved the sound experience, it is still not a
 
 ## Preview
 
-| Hopes and Dreams (from UNDERTALE) | Grand Escape - A Weathering With You OST | July - Autumn |
-|---------|---------|---------|
+| Hopes and Dreams (from UNDERTALE)                                                                                                                             | Grand Escape - A Weathering With You OST                                                                                                                      | July - Autumn                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <video src="https://user-images.githubusercontent.com/52615455/221608698-3e18ea57-824d-4d16-9105-edc0f0a70561.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227760758-76257887-dd00-43d7-852e-3f833570eeca.mov" width="320" height="180" controls></video> | <video src="https://user-images.githubusercontent.com/52615455/227782145-bf018aa8-bfbb-43d2-8e38-aafa6435737d.mov" width="320" height="180" controls></video> |
-| v2.0 | v2.2 | v2.2 |
+| v2.0                                                                                                                                                          | v2.2                                                                                                                                                          | v2.2                                                                                                                                                          |
 
 Record device: iPhone 13 Pro
 
@@ -116,12 +116,13 @@ There are some parameters/files refer to:
 | Type             | Name                                              | Purpose                                                                                    |     |     |
 | ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ | --- | --- |
 | Impulse-Response | `impulse_20230304_17_16.wav`                      | The main EQ for the sounds                                                                 |     |     |
-| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The LP version of `impulse_20230304_17_16.wav` (270Hz), with bass adjustments                      |     |     |
+| Impulse-Response | `bass_20230307_19_40-48k.wav`                     | The LP version of `impulse_20230304_17_16.wav` (270Hz), with bass adjustments              |     |     |
 | Impulse-Response | `clarity_20230325_18_49.wav`                      | The EQ to improve clarity.                                                                 |     |     |
 | Config           | `DynamiQ`                                         | A opensource project on laptop speaker, allowing to output as much bass as possible        |     |     |
 | VST2             | `KSHMREssentialsKick.dll`                         | A free vst2 plugin to adjust bass and make the kick harder and clear                       |     |     |
 | VST2             | `LOVEND_x64.dll`                                  | A free vst2 plugin to add harmonics to the bass                                            |     |     |
 | VST2             | `Proximity-x64.dll`                               | A free vst2 plugin to adjust sound depth                                                   |     |     |
+| VST2             | `WSTD_EQ-vst.dll`                                 | A free vst2 plugin to make some little adjustments like High, Mid. Mid Freq and Low        |     |     |
 | Parameters       | Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R     | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |     |     |
 | Parameters       | Channel: L_BASS R_BASS                            | The following parameters will only apply on L_BASS and R_BASS channels                     |     |     |
 | Parameters       | Channel: L_TREBLE R_TREBLE                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |     |     |
