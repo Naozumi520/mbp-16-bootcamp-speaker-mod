@@ -123,12 +123,13 @@ There are some parameters/files refer to:
 | VST2             | `LOVEND_x64.dll`                                    | A free vst2 plugin to add harmonics to the bass                                            |
 | VST2             | `Proximity-x64.dll`                                 | A free vst2 plugin to adjust sound depth                                                   |
 | VST2             | `WSTD_EQ-vst.dll`                                   | A free vst2 plugin to make some little adjustments like High, Mid. Mid Freq and Low        |
+| VST2             | `La Petite Excite.dll`                              | A free vst2 exciter plugin to make sound brighter                                          |
 | Parameters       | `Copy: L_BASS=L R_BASS=R L_TREBLE=L R_TREBLE=R`     | Created a new channel named L_BASS, R_BASS, L_TREBLE, R_TREBLE based on LR channels        |
 | Parameters       | `Channel: L_BASS R_BASS`                            | The following parameters will only apply on L_BASS and R_BASS channels                     |
 | Parameters       | `Channel: L_TREBLE R_TREBLE`                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |
 | Parameters       | `Copy: L=L_BASS+1.2*L_TREBLE R=R_BASS+1.2*R_TREBLE` | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
 ## Legal Disclaimer
-This configuration, created by Naozumi, includes six freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll`, `WSTD_EQ-vst.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
+This configuration, created by Naozumi, includes six freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll`, `WSTD_EQ-vst.dll`, `La Petite Excite.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
 
 ## Disclaimer
 The use of this configuration is at your own risk. The creator (Naozumi) will not be responsible for any damage or loss caused to your device or data, including but not limited to loss of profits or data, arising from the use of this configuration. You agree to use this configuration at your own discretion and are solely responsible for any consequences that may arise from its use. By using this configuration, you acknowledge and agree to these terms.
