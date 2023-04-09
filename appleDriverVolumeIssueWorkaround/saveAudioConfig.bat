@@ -1,0 +1,1 @@
+SoundVolumeView /SaveProfile %USERPROFILE%\AudioCache.spr

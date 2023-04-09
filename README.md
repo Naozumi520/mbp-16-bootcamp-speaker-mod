@@ -102,6 +102,19 @@ Finally, open the Enhancements tab, turn on Loudness Equalization. You can also 
 ## Volume issue
 You may noticed, the volume is very low after applied thr EQ. Don't worry! It's the normal behaviour! This EQ used [DynamiQ](https://github.com/Brad331/DynamiQ), the Intelligent Frequency-Aware Volume Boost. Once your Windows volume is maxed out, keep pressing the volume up button on your keyboard to boost the gain. You should see a white Gain box pop up near the screen's top left corner and hear an increase in volume. With this amazing config, the speaker now will output as much bass and volume as possible (Under 100% = good bass; More than 100% = lower bass and bring higher volume!) For more, please read the [DynamiQ document](https://github.com/Brad331/DynamiQ#dynamiq-intelligent-frequency-aware-volume-boost)
 
+Currently, there is a issue of the Audio Driver from Apple. That is, the volume of each devices will sometimes messed up. That mean, if your speaker volume is 100%, then in the next boot it might become 100% on your headphone. Apple should fix this issue ASAP, but I have a workaround for this. No matter you have encoutered this issue before or not, I'm recommended you to install it anyway:
+
+1. Plug in your headphone and adjust to the volume level you will always use. Unplug the headphone and adjust the volume level of the speaker as well.
+2. Open the `appleDriverVolumeIssueWorkaround` folder in the config folder you downloaded from release.
+3. Open `saveAudioConfig.bat`.
+4. Copy the `loadAudioConfig` folder to your user folder (C:/Users/<username>/).
+5. Check is there a file named "AudioCache.spr" saved to your user folder, if not, go back to step 1.
+6. Open the `loadAudioConfig` folder that you copied to your user folder, right click on `loadAudioConfig.bat` and hit copy.
+7. Press `win + r`, type in `shell:startup` then hit enter.
+8. Right click on the appear folder and hit `Paste shortcut`.
+
+After this, each time you entered desktop, cmd will open for 10 - 15 second to keep restoring your volume level. This ensure your volume is in a safe level and won't be changed.
+
 ## Contributing Guidelines
 Contributions are welcome for `mbp-16-bootcamp-speaker-mod`! And there are some guildlines about that.  
 
@@ -129,7 +142,7 @@ There are some parameters/files refer to:
 | Parameters       | `Channel: L_TREBLE R_TREBLE`                        | The following parameters will only apply on L_TREBLE and R_TREBLE channels                 |
 | Parameters       | `Copy: L=L_BASS+1.2*L_TREBLE R=R_BASS+1.2*R_TREBLE` | Copy L_BASS AND R_BASS to LR channels, Plus 1.2. Copy L_TREBLE and R_TREBLE to LR channels |
 ## Legal Disclaimer
-This configuration, created by Naozumi, includes six freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll`, `WSTD_EQ-vst.dll`, `La Petite Excite.dll` and `EqualizerAPO64-1.3.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
+This configuration, created by Naozumi, includes seven freeware/plugins, `DynamiQ`, `KSHMREssentialsKick.dll`, `Proximity-x64.dll`, `LOVEND_x64.dll`, `WSTD_EQ-vst.dll`, `La Petite Excite.dll`, `EqualizerAPO64-1.3.exe` and `SoundVolumeView.exe`, that are not owned or developed by the creator of this configuration. If the owners of these freeware/plugins have any objections to their inclusion in this configuration, please contact Naozumi (naozumi0512@gmail.com) and I will promptly remove them from the configuration.
 
 ## Disclaimer
 The use of this configuration is at your own risk. The creator (Naozumi) will not be responsible for any damage or loss caused to your device or data, including but not limited to loss of profits or data, arising from the use of this configuration. You agree to use this configuration at your own discretion and are solely responsible for any consequences that may arise from its use. By using this configuration, you acknowledge and agree to these terms.
