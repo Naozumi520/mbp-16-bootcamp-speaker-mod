@@ -68,6 +68,7 @@ Then, tick "Troubleshooting options (only use in case of problems)", Select the 
 <h1 align="center">
 <img src="https://user-images.githubusercontent.com/52615455/221891788-0370019f-7f33-4ab9-a001-fd09ea61a4f7.png" installation2" width="800">
 </h1>
+**Warning: Do not tick "Allow silent buffer modification"**
 
 Click OK and **do not restart**.
 <h1 align="center">
