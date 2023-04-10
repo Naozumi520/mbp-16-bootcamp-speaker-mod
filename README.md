@@ -68,6 +68,7 @@ Then, tick "Troubleshooting options (only use in case of problems)", Select the 
 <h1 align="center">
 <img src="https://user-images.githubusercontent.com/52615455/221891788-0370019f-7f33-4ab9-a001-fd09ea61a4f7.png" installation2" width="800">
 </h1>
+**Warning: Do not tick "Allow silent buffer modification"**
 
 Click OK and **do not restart**.
 <h1 align="center">
@@ -107,7 +108,7 @@ Currently, there is a issue of the Audio Driver from Apple. That is, the volume 
 1. Plug in your headphone and adjust to the volume level you will always use. Unplug the headphone and adjust the volume level of the speaker as well.
 2. Open the `appleDriverVolumeIssueWorkaround` folder in the config folder you downloaded from release.
 3. Open `saveAudioConfig.bat`.
-4. Copy the `loadAudioConfig` folder to your user folder (C:/Users/<username>/).
+4. Copy the `loadAudioConfig` folder to your user folder (C:/Users/\<username>/).
 5. Check is there a file named "AudioCache.spr" saved to your user folder, if not, go back to step 1.
 6. Open the `loadAudioConfig` folder that you copied to your user folder, right click on `loadAudioConfig.bat` and hit copy.
 7. Press `win + r`, type in `shell:startup` then hit enter.
