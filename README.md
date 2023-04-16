@@ -1,5 +1,6 @@
 # MBP16-BOOTCAMP-SPEAKERMOD 2.0
   
+> **Warning**
 **!!!! Do not download from source, but from the release instead !!!!**  
 This is an Equalizer APO configuration designed to fix the lack of tuning of the MacBook Pro 16 inch (2019) speaker when using Bootcamp.
 
@@ -68,7 +69,9 @@ Then, tick "Troubleshooting options (only use in case of problems)", Select the 
 <h1 align="center">
 <img src="https://user-images.githubusercontent.com/52615455/221891788-0370019f-7f33-4ab9-a001-fd09ea61a4f7.png" installation2" width="800">
 </h1>
-**Warning: Do not tick "Allow silent buffer modification"**
+
+> **Warning**
+**Do not tick "Allow silent buffer modification"**
 
 Click OK and **do not restart**.
 <h1 align="center">
@@ -103,6 +106,7 @@ Finally, open the Enhancements tab, turn on Loudness Equalization. You can also 
 ## Volume issue
 You may noticed, the volume is very low after applied thr EQ. Don't worry! It's the normal behaviour! This EQ used [DynamiQ](https://github.com/Brad331/DynamiQ), the Intelligent Frequency-Aware Volume Boost. Once your Windows volume is maxed out, keep pressing the volume up button on your keyboard to boost the gain. You should see a white Gain box pop up near the screen's top left corner and hear an increase in volume. With this amazing config, the speaker now will output as much bass and volume as possible (Under 100% = good bass; More than 100% = lower bass and bring higher volume!) For more, please read the [DynamiQ document](https://github.com/Brad331/DynamiQ#dynamiq-intelligent-frequency-aware-volume-boost)
 
+> **Warning**
 Currently, there is a issue of the Audio Driver from Apple. That is, the volume of each devices will sometimes messed up. That mean, if your speaker volume is 100%, then in the next boot it might become 100% on your headphone. Apple should fix this issue ASAP, but I have a workaround for this. No matter you have encoutered this issue before or not, I'm recommended you to install it anyway:
 
 1. Plug in your headphone and adjust to the volume level you will always use. Unplug the headphone and adjust the volume level of the speaker as well.
